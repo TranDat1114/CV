@@ -1,0 +1,164 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sarabun:wght@100&display=swap');
+
+/* css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: 'Sarabun', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #dde1e7;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    border-radius: 100px;
+    box-shadow:
+        0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaaf,
+        -8px -8px 15px #ffffff;
+}
+
+.Title-Name {
+    width: 500px;
+    margin: 0px auto;
+}
+
+.Title-Name>h1 {
+    margin: 0 0 75px 0;
+    font-size: 72px;
+    font-family: 'Poiret One', cursive;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.text {
+    font-size: 24px;
+    font-family: 'Poiret One', cursive;
+}
+
+.link {
+    text-decoration: none;
+    color: #0055EB;
+    cursor: url(svg/link.cur);
+}
+
+.link:hover {
+    color: #000079;
+}
+
+.left h3, .right h3 {
+    font-size: 24px;
+    margin: 5px 0 10px 0;
+}
+
+.left i {
+    font-size: 18px;
+}
+
+.left b {
+    font-size: 18px;
+    font-weight: 600px;
+
+}
+
+.left p {
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.left {
+    width: 350px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+}
+
+.left h3 {
+    margin: 0 10px 0 0;
+}
+
+.contacts, .educations, .skills, .language, .awards {
+    text-align: right;
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 2px 2px 5px rgb(94 104 121 / 29%);
+    border-radius: 10px
+}
+
+.contacts p, .educations p, .skills p, .language p, .awards p {
+    margin: 0 10px 5px 0;
+}
+
+.experience, .certificate, .aboutme, .avatar {
+    margin: 8px 0 7px 0;
+    padding: 12px 0 13px 0;
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 2px 2px 5px rgb(94 104 121 / 29%);
+    border-radius: 10px;
+}
+
+
+.skills i {
+    font-size: 14px;
+    color: #0055EB;
+    cursor: pointer;
+}
+
+.skills i:hover {
+    color: #f67777;
+}
+
+.fullstar:hover #colora {
+    color: #000079;
+}
+
+.right {
+    border-radius: 20px;
+    width: 550px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+}
+
+/* 
+.border {
+    border-radius: 10px;
+} */
+
+.foot {
+    width: 330px;
+}
+
+#icon-language {
+    font-size: 20px;
+    color: #000079;
+}
+
+#icon-language img {
+    width: 20px;
+}
